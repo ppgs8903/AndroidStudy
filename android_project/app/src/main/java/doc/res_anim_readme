@@ -1,6 +1,0 @@
-android:duration 动画持续时间,时间以毫秒为单位
-android:startOffset 动画之间的时间间隔，从上次动画停多少时间开始执行下个动画
-android:interpolator 指定一个动画的插入器
-android:fillAfter 当设置为true ，该动画转化在动画结束后被应用
-android:repeatMode 定义重复的行为
-android:repeatCount 定义动画重复次数

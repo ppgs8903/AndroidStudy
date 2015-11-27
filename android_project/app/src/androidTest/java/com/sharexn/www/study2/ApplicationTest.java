@@ -1,4 +1,4 @@
-package com.sharexn.www.myapplication;
+package com.sharexn.www.study2;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
