@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android_project.iml" filepath="$PROJECT_DIR$/android_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+<<<<<<< beb17c07bdd8f803f1c4e4edcdb29babe2ad2054:android_project/.idea/modules.xml
+=======
+      <module fileurl="file://$PROJECT_DIR$/whatapp.iml" filepath="$PROJECT_DIR$/whatapp.iml" />
+>>>>>>> ead44dc9d6f45f76adcef2736297cffc8a62f6f0:whatapp/.idea/modules.xml
+    </modules>
+  </component>
+</project>

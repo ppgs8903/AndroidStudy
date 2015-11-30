@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'ppgs8903'
+            keyPassword 'ppgs8903'
+            storeFile file('F:/AndroidStudy/android_project/KEY/key.jks')
+            storePassword 'ppgs8903'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "com.sharexn.www.whatapp"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+}
